@@ -30,7 +30,7 @@ let employee =[
     {name:"swaroop",age:41,gender:"male"},
     {name:"maneela",age:36,gender:"female"}
 ];
-let femalEempOverThirty = employee.filter((emp)=>{
+let femaleEmpOverThirty = employee.filter((emp)=>{
     return emp.gender === "female" && emp.age >30
 });
 console.log(femalEempOverThirty);
@@ -40,3 +40,28 @@ console.log(femalEempOverThirty);
 let arr = [1,2,3,4,5];
 let nu = arr.reduce((acc,num)=>acc+num, 0);
 console.log(nu);
+
+// max number of an array 
+
+let top = [10, 20, 30, 45, 87, 12, 14]; // highest num = 87
+let maxnum = top.reduce((max,num)=> {
+    if (num > max){
+         return num;
+    }
+    else {
+        return max;
+    }
+}, top[0]);
+console.log(maxnum);
+
+// cart: name, price
+
+let cartItems =[
+    {name:"Jeans", price: 1500},
+    {name:"Shirt", price: 2000},
+    {name:"Trouser", price: 1400},
+    {name:"T-shirt", price: 600},
+    {name:"vests", price: 250}
+];
+let totalCost = cartItems.reduce((total,item)=> total+ item.price, 0);
+console.log(totalCost);
