@@ -3,15 +3,14 @@
 function add(a,b){
     return a+b;
 }
-
 function print(){
     console.log("Hi this is Java Script");
-    
 }
 const sum = add(5,6);
 console.log(sum);
 print();
 console.log("---------------");
+
 // 2. Function Expression: Annonymous function.
 
 const mutliply = function(x,y){
