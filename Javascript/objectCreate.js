@@ -29,7 +29,7 @@ console.log("-------------");
 
 class Customer {
     constructor(name, product){
-        this.name =name;
+        this.name =name; // Instance Variables
         this.product=product;
     }
     addToCart(){
@@ -45,5 +45,31 @@ console.log("-------------");
 
 // 4. object. create method(): with some prototype it can be created.
 
+const employeeProtoType = {
+    printInfo:function(){
+        console.log(`Hello, I am an employee of ${this.companyName}`);
+    }
+};
+
+const e1 = Object.create(employeeProtoType);
+e1.companyName='Softsol';
+e1.printInfo();
 
 
+// 5 Using the factory functions: return an object
+
+function createDepartment(deptname, HOD){
+    return{
+        deptname: deptname,
+        HOD:HOD,
+        getDeptInfo: function(){
+            console.log(`Hi the deptname is ${this.deptname} and the hod is ${this.HOD}`);
+        }
+    }
+}
+const dept1 = createDepartment("QA","Srinivas Rao Peddi");
+const dept2 = createDepartment("Dev","Srinivas Manne");
+dept1.getDeptInfo();
+dept2.getDeptInfo();
+console.log(dept1.deptname+' '+dept1.HOD);
+console.log(dept2.deptname+' '+dept2.HOD);
