@@ -51,7 +51,7 @@ browserInfo();
 browserInfo('firefox','115.12.3.0','mozilla','headless');
 
 
-//max number usinh Math
+//max number using Math
 
  const findMaxNum = (a,b,c) => {
 return Math.max(a,b,c);
