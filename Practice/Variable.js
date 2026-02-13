@@ -9,12 +9,16 @@ console.log('--------------------')
 // using var keyword we can declare multiple times using same defined'var' name 
 // here 'bunty is declared two times. No error message is displayed.
 
+// let: 
+
 let school = 'primary'
 console.log(school)
 
 
  school = 'pre-primary'
  console.log(school);
+
+ // Const:
 
 console.log('--------------------')
 

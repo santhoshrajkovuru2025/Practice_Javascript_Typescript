@@ -12,14 +12,22 @@
 // 2. Object
 
 
-
-
-
-
-
-
-
-
 var string = "This a String"
 console.log('string')
+
+num = 1
+console.log(num);
+
+Boolean = true
+console.log(Boolean)
+
+// null
+
+let sampleview = null
+console.log(sampleview);
+
+// undefined
+
+let apple;
+console.log(apple);
 
