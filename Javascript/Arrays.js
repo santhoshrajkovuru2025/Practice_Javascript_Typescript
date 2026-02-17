@@ -39,7 +39,7 @@ let n =[1,2,3,4,5,6];
 let newn = n.slice(1,4);
 console.log(newn);
 
-//7.  concat : Adds the 
+//7.  concat : Adds two arrays
 
 let fr =['Apples','Mangoes','Bananas','Kiwis'];
 let veg = ['cabbage','califlower','carrot']
