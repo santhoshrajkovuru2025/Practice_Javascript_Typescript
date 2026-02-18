@@ -27,14 +27,14 @@ console.log(doubled)
 
 console.log ('--------------------')
 
-    // filter(): useed for filtering the data in the Array
+    // filter(): used for filtering the data in the Array
 
     const evens = numbers.filter(n => n%2 === 0)
     console.log(evens);
-
     console.log ('--------------------')
 
     // reduce(): Reduces to a single value.
 
-    const sum = numbers.reduce((total,n)=>n+total,0);
+    const sum = numbers.reduce((total,n) => n+total,0);
     console.log(sum);
+
