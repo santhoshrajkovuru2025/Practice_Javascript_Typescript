@@ -8,6 +8,8 @@ while(i<=5){
 }
 
 console.log("-----------------")
+
+
 // Do while Loop
 
 
