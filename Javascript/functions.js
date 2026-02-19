@@ -61,6 +61,7 @@ console.log(generator.next().value);
 console.log(generator.next().value);
 console.log(generator.next().value);
 console.log("---------------");
+
 //7. Annoymous function(): No specific Name
 
 const numbers = [1,2,3,4,5,6,];
