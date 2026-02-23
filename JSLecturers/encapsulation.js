@@ -8,8 +8,9 @@ class BankAccount{
         return this.#balance
     }
 }
-
 let acc = new BankAccount();
 acc.deposit(500);
 console.log(acc.getBalance());
+
+
 
