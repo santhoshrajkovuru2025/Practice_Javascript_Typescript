@@ -17,6 +17,8 @@ function welcome (){
 greet('Sunthosh',welcome)
 
 console.log('--------------------')
+
+
 // practice
 
 function Showroom(Thing, callback){
