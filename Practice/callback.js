@@ -10,8 +10,11 @@ function Office(){
 }
 Home('Laptop',Office)
 
+
 console.log("-------------------")
-// fucntion with callback
+
+
+// function with callback
 
 function essentials(thing, callback){
  console.log(`provided the ${thing}`)
@@ -22,3 +25,4 @@ function accept(){
     console.log('Accepted')
 }
 essentials('bottle', accept)
+
