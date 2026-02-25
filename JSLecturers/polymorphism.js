@@ -16,5 +16,5 @@ class Cat extends Animal{
     }
 }
 let animals = [new Dog(), new Cat()];
-animals.forEach(a=>a.sound());
+animals.forEach(a=>a.sound()); // using forEach loop
 

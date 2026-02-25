@@ -10,6 +10,6 @@ function Sample(name,...myCollection) {
     for (let i in myCollection){
         value += myCollection[i]
     }
-    console.log(value)
+    console.log(name, value)
 }
 Sample("Sunthosh",10,20,30,40,50,60,70)
