@@ -38,7 +38,4 @@ const sample = [1,2,3,4,5,6,7,8,9]
 const [one,two,three,four,five,six,seven,eight,nine] = sample
 console.log(five)
 
-const states = {
 
-    
-}
