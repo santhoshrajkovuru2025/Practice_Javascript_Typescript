@@ -30,6 +30,7 @@ function getversion(browserName: String): number {
 
 console.log(BrowserName.Chrome)
 console.log(BrowserName)
+console.log('----------------------------------')
 
 
 // Enum in String
@@ -41,6 +42,5 @@ enum Environment{
     Stage = 'Stage',
     Prod = 'Prod'
 }
-
 
 console.log(Environment.Dev)
