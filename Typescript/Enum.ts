@@ -27,8 +27,10 @@ function getversion(browserName: String): number {
     return -1   
 }
 
+console.log('----------------------------------')
 
 console.log(BrowserName.Chrome)
+console.log('----------------------------------')
 console.log(BrowserName)
 console.log('----------------------------------')
 
@@ -44,3 +46,17 @@ enum Environment{
 }
 
 console.log(Environment.Dev)
+console.log(Environment['Stage'])
+console.log('------------------------------------------')
+
+// Heterogeneous:
+
+enum Status {
+    Active = 'Active',
+    Deactive =1,
+    pending
+}
+
+console.log(Status.Active)
+console.log(Status.Deactive)
+console.log(Status.pending)

@@ -21,8 +21,11 @@ function getversion(browserName) {
     }
     return -1;
 }
+console.log('----------------------------------');
 console.log(BrowserName.Chrome);
+console.log('----------------------------------');
 console.log(BrowserName);
+console.log('----------------------------------');
 // Enum in String
 var Environment;
 (function (Environment) {
@@ -32,3 +35,15 @@ var Environment;
     Environment["Prod"] = "Prod";
 })(Environment || (Environment = {}));
 console.log(Environment.Dev);
+console.log(Environment['Stage']);
+console.log('------------------------------------------');
+// Heterogeneous:
+var Status;
+(function (Status) {
+    Status["Active"] = "Active";
+    Status[Status["Deactive"] = 1] = "Deactive";
+    Status[Status["pending"] = 2] = "pending";
+})(Status || (Status = {}));
+console.log(Status.Active);
+console.log(Status.Deactive);
+console.log(Status.pending);
