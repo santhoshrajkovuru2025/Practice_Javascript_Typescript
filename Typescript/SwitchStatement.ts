@@ -123,6 +123,6 @@ switch (browserName) {
         break;
 
     default:
-        console.log('No browser launched')
+        console.log('No browser info')
         break;
 }
