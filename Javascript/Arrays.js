@@ -13,7 +13,7 @@ let numbers =[1,2,3,4,5,6];
 numbers.pop();
 console.log(numbers);
 
-// 3. shift method: remove the element from the array and return the array.
+// 3. shift method: remove the first element from the array and return the array.
 
 let fruits =['Apples','Mangoes','Bananas','Kiwis']; // Array of strings
 
@@ -28,7 +28,7 @@ colour.unshift("blue");
 console.log(colour);
 console.log(colour.length);
 
-// 5. splice: Allow to add remove in the array for the same index
+// 5. splice: Allow to add and remove in the array for the same index.
 
 let animals = ['bear', 'deer','fox','eagle']
 animals.splice(1,1,'lion');

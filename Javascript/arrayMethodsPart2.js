@@ -1,7 +1,7 @@
 
 // 1. every():
 
-let num = [1,2,3,4,5,6,];
+let num = [1,2,3,4,5,6,7];
 let flag = num.every((e)=> e<10);
 console.log(flag);
 console.log("----------------")
@@ -39,6 +39,8 @@ let frts = ['apple','banana','mango','peach'];
 let frtrvrse = frts.reverse();
 console.log(frtrvrse);
 console.log("----------------");
+
+
 //7. sort();
 
 let products = ['iphone','macbook','Andriod','lenovo'];
