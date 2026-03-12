@@ -16,7 +16,7 @@ console.log("----------------------------------")
 // what is a function ? : It is a block of code
 // function with parameters and without parameters
 // function should contain function name
-// function key word should be ued to declare a function
+// function key word should be used to declare a function
 
 // function without parameters:
 
