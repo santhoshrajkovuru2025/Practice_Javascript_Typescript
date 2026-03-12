@@ -40,3 +40,7 @@ new promise ((resolve,reject)=>{
      // Register().then((data)=>{console.log(data)}) : before adding the login function, i had added this.
 
      Register().then(Login).then(Thankyou) //.catch((err)=>console.log(err))
+
+
+
+ 

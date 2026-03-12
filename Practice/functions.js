@@ -33,7 +33,7 @@ function identify(name,age){
     console.log("The person name is:" +name, "and the age is: "+age)
     console.log(`The name of the person is ${name} and the age is ${age}`)
 }
-identify('Swaroop',40)
-identify('Santhosh',25)
+identify('Swaroop',40);
+identify('Santhosh',25);
 
 

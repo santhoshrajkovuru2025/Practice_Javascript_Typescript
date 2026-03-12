@@ -7,6 +7,7 @@ function test (){
 var y = 20;
 }
 console.log(x);
+console.log(y);
 console.log ("---------------------")
 
 // Scope of var is local in a function
