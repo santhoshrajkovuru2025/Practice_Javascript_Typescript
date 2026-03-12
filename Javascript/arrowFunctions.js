@@ -14,6 +14,7 @@ const add = (a,b)=> a+b;
 console.log(add(5,6));
 console.log("------------------");
 
+// using template literals:
 
 const getfullName = (person) => `${person.firstName}${person.lastName}`
 

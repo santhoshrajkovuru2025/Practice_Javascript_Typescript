@@ -19,6 +19,8 @@ const mutliply = function(x,y){
 let mul = mutliply(5,6);
 console.log(mul);
 console.log("---------------");
+
+
 // 3. Arrow function Expression: Annonymous function , a function has no name.
 
 const divide = (t1,t2) => t1/t2;
