@@ -45,7 +45,7 @@ console.log(newn);
 
 console.log('---------------------------');
 
-// indexOf(): provides the first immdex value of an element.
+// indexOf(): provides the first index value of an element.
 
 let fruits1 = ['Apple', 'banana', 'pilum', 'peer'];
 let str_fruits1 = fruits1.indexOf('peer');
