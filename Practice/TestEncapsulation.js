@@ -1,5 +1,6 @@
 
 // Encapsulation: using private variables and private functions
+// Encapsulation is the process of wrapping data (variables) and methods (functions) into a single unit (class) and restricting direct access using private variables.
 
 // Define a class called 'human'
 class human {
