@@ -2,7 +2,7 @@
 // Primitive Datatypes;
 // 1. String
 // 2. Number
-// 3. Boolena
+// 3. Boolean
 // 4. Null
 // 5. Undefined
 
@@ -14,9 +14,15 @@
 
 var string = "This a String"
 console.log('string')
+console.log('--------------------')
 
-num = 1
+num = 23;
+num1 = '23';
+num1 = 'Sunthosh';
+num2 = 23.00;
+
 console.log(num);
+console.log(num1);
 
 Boolean = true
 console.log(Boolean)

@@ -24,6 +24,23 @@ console.log('--------------------')
 
 const ground ='used for playing'
 console.log(ground)
+console.log('--------------------')
 
 
-
+function someName(){
+console.log(x);
+let y = 200;
+    if(true){
+        var x =100;
+         var x =300;
+       // console.log(y);
+       // console.log(pi)
+        const pi =3.14;
+        console.log(x);
+        console.log(y);
+        console.log(pi)
+    }
+    console.log(x);
+    console.log(y);
+}
+someName()

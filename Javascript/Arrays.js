@@ -2,7 +2,7 @@ let num =[]; // empty Array
 
 
 let lang =['java','python','javascript']
-// 1. method - push : appends at the last of the array
+// 1. method - push : appends at the last of the array and returns the new length of the Array
 
 lang.push('ruby','c++');
 console.log(lang);
@@ -21,7 +21,7 @@ let fistFruit = fruits.shift();
 console.log(fistFruit);
 console.log(fruits);
 
-// 4. unshift : one or more adds elements in the beginning of the array and return the array.
+// 4. unshift : one or more adds elements in the beginning of the array and return the updated length of the array.
 
 let colour =["black","white"];
 colour.unshift("blue");
