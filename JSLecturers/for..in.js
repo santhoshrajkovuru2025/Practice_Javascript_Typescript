@@ -16,7 +16,7 @@ for (let i in cities){
 
 console.log("--------------------")
 
-// Using the same with Template literals:
+// Using the same with Template Literals:
 
 for(let j in cities){
     console.log(`The name of city is ${j} : ${cities[j]}`)

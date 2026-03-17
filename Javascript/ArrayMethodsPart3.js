@@ -97,6 +97,7 @@ console.log(double);
 console.log ('--------------------')
 
 // forEach():
+
 numbers = [1,2,3,4,5,6]
 numbers.forEach(n => console.log(n));
 console.log ('--------------------');
@@ -111,3 +112,6 @@ numbers.forEach((n)=>{
         console.log(n)
     }
 });
+
+
+// 
