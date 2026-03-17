@@ -1,3 +1,27 @@
 
-var empName: string = 'santhosh'
+// both the type and intial value:
+
+var empName: string = 'sunthosh'
 console.log(empName);
+console.log('-----------------------')
+
+// only the type:
+
+var empId:number;
+empId = 1984;
+console.log(empId)
+console.log('-----------------------')
+
+// only the initialization of the value (no type)
+
+var empDept = 'QA';
+console.log(empDept);
+console.log('-----------------------')
+
+// No type and the initialize the value
+
+var empLocation;
+empLocation = 'Hyderabad'
+console.log(empLocation);
+
+
