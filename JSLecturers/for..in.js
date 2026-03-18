@@ -21,3 +21,10 @@ console.log("--------------------")
 for(let j in cities){
     console.log(`The name of city is ${j} : ${cities[j]}`)
 }
+console.log("--------------------")
+
+// another way of using forEach function in Objects
+
+Object.keys(cities).forEach(n =>{
+    console.log(cities[n]+':A')
+})
