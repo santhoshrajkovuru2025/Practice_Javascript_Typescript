@@ -17,8 +17,11 @@
     return a+b
  }
  let s1 = sum(5,6)
+  console.log(s1)
+  console.log('------------------------')
  let s2 = sum(true,false)
+  console.log(s2)
+  console.log('------------------------')
  let s3 = sum("Hello","World")
- console.log(s1)
- console.log(s2)
- console.log(s3)
+  console.log(s3)
+  console.log('------------------------')
