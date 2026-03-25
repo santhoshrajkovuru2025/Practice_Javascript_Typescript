@@ -28,12 +28,17 @@ let employee =[
     {name:"peter",age:32,gender:"male"},
     {name:"sanah",age:25,gender:"female"},
     {name:"swaroop",age:41,gender:"male"},
-    {name:"maneela",age:36,gender:"female"}
+    {name:"maneela",age:36,gender:"female",sal:50000},
+    10,
+    "Sunthosh"
 ];
+console.log(employee)
+console.log('-----------------------------')
 let femaleEmpOverThirty = employee.filter((emp)=>{
-    return emp.gender === "female" && emp.age >30
+    return emp.gender === "female" && emp.age >20
 });
-console.log(femalEempOverThirty);
+console.log(femaleEmpOverThirty);
+console.log('-----------------------------')
 
 // 3. reduce function:
 

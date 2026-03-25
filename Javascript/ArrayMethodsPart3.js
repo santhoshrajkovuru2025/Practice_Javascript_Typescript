@@ -33,7 +33,7 @@ console.log('--------------------------------')
 // splice: 
 
 let names = ['santhosh','softsol','Sudheer', 'swaroop'];
-names.splice(0,2,'akhil')
+names.splice(2,2,'akhil')
 console.log(names);
 console.log('--------------------------------')
 

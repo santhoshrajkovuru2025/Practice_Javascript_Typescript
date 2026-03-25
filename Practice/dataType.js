@@ -20,6 +20,9 @@ num = 23;
 num1 = '23';
 num1 = 'Sunthosh';
 num2 = 23.00;
+num = num1;
+console.log(num)
+console.log('--------------------')
 
 console.log(num);
 console.log(num1);

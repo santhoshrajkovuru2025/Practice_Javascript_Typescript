@@ -3,6 +3,8 @@ console.log(bunty)
 
 var bunty = 'singing'
 console.log(bunty)
+var bunty = 10;
+console.log(bunty)
 
 console.log('--------------------')
 
@@ -12,13 +14,14 @@ console.log('--------------------')
 // let: 
 
 let school = 'primary'
+school = 'secondary'
 console.log(school)
 
 
  school = 'pre-primary'
  console.log(school);
 
- // Const:
+ // Const: 
 
 console.log('--------------------')
 
